@@ -1,5 +1,4 @@
-<html>
-    <head>
+<head>
         <meta charset="UTF-8">
         <title>Prueba Formulario</title>
     </head>
