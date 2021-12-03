@@ -14,7 +14,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
         a poder subir ficheros-->
         <form action="ComprobarFichero.php " method="POST " enctype="multipart/form-data">
             <label> Subir archivos: 
-                <input type="file" name="FicheroSubida" value="SubirFichero">
+                <input type="file" name="Subir_Fichero" value="SubirFichero">
             </label>
             <input type="submit" value="Subir fichero ">
         </form>

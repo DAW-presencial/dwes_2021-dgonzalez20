@@ -1,7 +1,6 @@
 <?php
-copy($_FILES['SubirFichero']['temp_name'],$_FILES['SubirFichero']['name']);
-echo "El fichero se ha subido correctamente";
-$Destino=$_FILES['SubirFichero']['name']; 
-echo "<img src=\"$Destino\">";
-        
+$archivo=$_FILES['SubirFichero']['temp_name'];
+$extemsion=pathinfo($archivo,PATHINFO_EXTENSION);
+ if (move_uploaded_file($archivo,"nuevoarchivo.pdf".$extemsion));
+ echo "El fichero se ha subido correctamente";
 ?>

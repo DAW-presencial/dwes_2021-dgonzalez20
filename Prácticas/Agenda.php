@@ -43,7 +43,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
         ?>
         <h1>Generar nuevo contacto</h1>
       <form>
-            <div style="align-items: left"> 
+            <div style="aling-items: left">
                 <?php
                 foreach ($contactos as $nombre => $telefono) {
             echo '<input type="hidden" name="contactos['.$nombre.']"';
